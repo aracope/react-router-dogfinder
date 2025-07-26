@@ -1,0 +1,23 @@
+.Nav {
+  margin-bottom: 20px;
+}
+
+.Nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.Nav-link.active {
+  font-weight: bold;
+  color: #cc00ff;
+}
+/* Back link */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

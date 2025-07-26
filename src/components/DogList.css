@@ -1,0 +1,46 @@
+.dog-list {
+  text-align: center;
+}
+
+.dog-list-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dog-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dog-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Dog List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+li a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
